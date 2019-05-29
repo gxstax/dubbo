@@ -135,12 +135,12 @@ public class ServiceConfig<T> extends AbstractServiceConfig {
     private static final ScheduledExecutorService delayExportExecutor = Executors.newSingleThreadScheduledExecutor(new NamedThreadFactory("DubboServiceDelayExporter", true));
 
     /**
-     * The urls of the services exported
+     * The urls of the META-INF exported
      */
     private final List<URL> urls = new ArrayList<URL>();
 
     /**
-     * The exported services
+     * The exported META-INF
      */
     private final List<Exporter<?>> exporters = new ArrayList<Exporter<?>>();
 

@@ -283,7 +283,7 @@ public class RegistryDirectory<T> extends AbstractDirectory<T> implements Notify
              * If the calculation is wrong, it is not processed.
              *
              * 1. The protocol configured by the client is inconsistent with the protocol of the server.
-             *    eg: consumer protocol = dubbo, provider only has other protocol services(rest).
+             *    eg: consumer protocol = dubbo, provider only has other protocol META-INF(rest).
              * 2. The registration center is not robust and pushes illegal specification data.
              *
              */

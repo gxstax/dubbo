@@ -26,7 +26,7 @@ import java.util.Map;
 import java.util.Optional;
 
 /**
- * Consumer Model which is about subscribed services.
+ * Consumer Model which is about subscribed META-INF.
  */
 public class ConsumerModel {
     private final Object proxyObject;

@@ -1,0 +1,4 @@
+red=com.ant.dubbo_spi.impl.RedCar
+black=com.ant.dubbo_spi.impl.BlackCar
+benz=com.ant.dubbo_spi.impl.BenzCar
+## com.ant.dubbo_spi.wrapper.CarWrapper

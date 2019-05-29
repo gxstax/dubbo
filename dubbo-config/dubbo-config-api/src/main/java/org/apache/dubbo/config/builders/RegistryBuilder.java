@@ -63,7 +63,7 @@ public class RegistryBuilder extends AbstractBuilder<RegistryConfig, RegistryBui
     private String cluster;
 
     /**
-     * The group the services registry in
+     * The group the META-INF registry in
      */
     private String group;
 

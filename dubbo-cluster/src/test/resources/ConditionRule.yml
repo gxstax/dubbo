@@ -17,7 +17,7 @@
 #
 #
 
-# application level, applies to all services
+# application level, applies to all META-INF
 ---
 scope: application
 force: true

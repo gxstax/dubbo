@@ -124,7 +124,7 @@ public class RegistryProtocol implements Protocol {
     private final Map<URL, NotifyListener> overrideListeners = new ConcurrentHashMap<>();
     private final Map<String, ServiceConfigurationListener> serviceConfigurationListeners = new ConcurrentHashMap<>();
     private final ProviderConfigurationListener providerConfigurationListener = new ProviderConfigurationListener();
-    //To solve the problem of RMI repeated exposure port conflicts, the services that have been exposed are no longer exposed.
+    //To solve the problem of RMI repeated exposure port conflicts, the META-INF that have been exposed are no longer exposed.
     //providerurl <--> exporter
     private final ConcurrentMap<String, ExporterChangeableWrapper<?>> bounds = new ConcurrentHashMap<>();
     private Cluster cluster;

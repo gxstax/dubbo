@@ -34,10 +34,10 @@ import static org.apache.dubbo.registry.support.ProviderConsumerRegTable.getCons
 import static org.apache.dubbo.registry.support.ProviderConsumerRegTable.isRegistered;
 
 /**
- * ListTelnetHandler handler list services and its methods details.
+ * ListTelnetHandler handler list META-INF and its methods details.
  */
 @Activate
-@Help(parameter = "[-l] [service]", summary = "List services and methods.", detail = "List services and methods.")
+@Help(parameter = "[-l] [service]", summary = "List META-INF and methods.", detail = "List META-INF and methods.")
 public class ListTelnetHandler implements TelnetHandler {
 
     @Override

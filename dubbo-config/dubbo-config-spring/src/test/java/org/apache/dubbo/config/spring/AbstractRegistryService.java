@@ -40,19 +40,19 @@ public abstract class AbstractRegistryService implements RegistryService {
     // logger
     protected final Logger logger = LoggerFactory.getLogger(getClass());
 
-    // registered services
+    // registered META-INF
     // Map<serviceName, Map<url, queryString>>
     private final ConcurrentMap<String, List<URL>> registered = new ConcurrentHashMap<String, List<URL>>();
 
-    // subscribed services
+    // subscribed META-INF
     // Map<serviceName, queryString>
     private final ConcurrentMap<String, Map<String, String>> subscribed = new ConcurrentHashMap<String, Map<String, String>>();
 
-    // notified services
+    // notified META-INF
     // Map<serviceName, Map<url, queryString>>
     private final ConcurrentMap<String, List<URL>> notified = new ConcurrentHashMap<String, List<URL>>();
 
-    // notification listeners for the subscribed services
+    // notification listeners for the subscribed META-INF
     // Map<serviceName, List<notificationListener>>
     private final ConcurrentMap<String, List<NotifyListener>> notifyListeners = new ConcurrentHashMap<String, List<NotifyListener>>();
 

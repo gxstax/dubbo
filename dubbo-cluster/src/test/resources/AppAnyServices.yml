@@ -17,7 +17,7 @@
 #
 #
 
-# Application scope, apply to all services.
+# Application scope, apply to all META-INF.
 ---
 configVersion: v2.7
 scope: application
